@@ -60,7 +60,7 @@ perttier 不但支持 ts 文件，也支持对 css、HTML 等文件进行代码�
     }
   },
   "lint-staged": {
-    "src/**/*.[!.spec].ts": [
+    "src/**/!(*.spec).ts": [
       "tslint --project tsconfig.app.json --fix",
       "prettier --write",
       "git add"
@@ -79,7 +79,7 @@ perttier 不但支持 ts 文件，也支持对 css、HTML 等文件进行代码�
       "prettier --write",
       "git add"
     ]
-  },
+  }
 ```
 - 这里需要自己单独去配置 `test:once` 的脚本。
 - 这里单独跑了 prettier, 而没有使用 `tslint-plugin-prettier` 插件，因为如果用 tslint 跑 prettier 无法使用直接修复的命令。
