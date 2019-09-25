@@ -50,7 +50,7 @@ perttier 不但支持 ts 文件，也支持对 css、HTML 等文件进行代码�
 上面的配置需要先安装开发依赖包 tslint-plugin-prettier 和 tslint-config-prettier。
 
 ## 实践：在 Angular 项目中的配置 Husky，lint-staged，prettier
-首先安装依赖：`npm install husky lint-staged prettier tslint-plugin-prettier --save-dev`
+首先安装依赖：`npm install husky lint-staged prettier tslint-config-prettier --save-dev`
 在 `package.json` 中，配置 husky 和 lint-staged：
 ```
   "husky": {
@@ -85,8 +85,8 @@ perttier 不但支持 ts 文件，也支持对 css、HTML 等文件进行代码�
 - 这里单独跑了 prettier, 而没有使用 `tslint-plugin-prettier` 插件，因为如果用 tslint 跑 prettier 无法使用直接修复的命令。
 - 这里做了三种 ts 文件的配置，是因为 tslint 做 type check 时需要相关的 tsconfig 文件，且使用 `--project` 配置 tsconfig 文件时只能配置一个。因此这里分别配置了功能代码、测试代码、e2e 代码三种文件的配置。
 
-在 `tslint.json` 的 `extends` 中加上 `tslint-plugin-prettier`，最后的配置可能是：
+在 `tslint.json` 的 `extends` 中加上 `tslint-config-prettier`，最后的配置可能是：
 ```
-"extends": ["tslint:recommended", "tslint-plugin-prettier"],
+"extends": ["tslint:recommended", "tslint-config-prettier"],
 ```
 你可能还需要配置 `.prettierignore` 文件用于配置不需要 prettier 的文件，和 `.prettierrc` 文件用于配置 prettier 的配置。
