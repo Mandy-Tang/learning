@@ -40,6 +40,14 @@
 - Labels
   - k8s 中的概念
 - Endpoints: The servers that back a service are called its endpoints, and are specified by an object of type Endpoints with the same name as the service.
+- Users
+- Namespaces
+  - K8s 中的概念，提供了一种机制去确定一个集群中资源的范围（A Kubernetes namespace provides a mechanism to scope resources in a cluster.）
+  - 避免命名冲突、分配用户管理权限、限制共同资源的消耗（The ability to limit community resource consumption.）
+- Projects
+  - k8s namespace + 附加说明
+  - project 是普通用户访问资源的渠道，且需要管理员提供访问项目的权限。
+  - 项目为一个群体提供了一个独立的环境去组织和管理内容，并与另外一个群体完全隔离。
 
 ### 架构组件
 - k8s 架构
