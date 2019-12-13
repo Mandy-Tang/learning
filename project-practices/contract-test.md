@@ -25,19 +25,16 @@
   基于 restful 接口
 - Pact + GraphQL
 
-## 基于 GraphQL 的契约测试
-
-
-
-
+## GraphQL 的契约测试
 
 ------
 参考资料：
 
-[聊一聊契约测试](https://insights.thoughtworks.cn/about-contract-test/)
-[A Comprehensive Guide to Contract Testing APIs in a Service Oriented Architecture](https://medium.com/@liran.tal/a-comprehensive-guide-to-contract-testing-apis-in-a-service-oriented-architecture-5695ccf9ac5a)
-[契约测试](https://www.jianshu.com/p/e318fadf8553)
-[Start testing your GraphQL Schema, Queries and, Mutations!](https://hackernoon.com/start-testing-your-graphql-schema-queries-and-mutations-b514911b1368)
-
-------
-GraphQL 的其余小工具
+- [聊一聊契约测试](https://insights.thoughtworks.cn/about-contract-test/)
+- [A Comprehensive Guide to Contract Testing APIs in a Service Oriented Architecture](https://medium.com/@liran.tal/a-comprehensive-guide-to-contract-testing-apis-in-a-service-oriented-architecture-5695ccf9ac5a)
+- [契约测试](https://www.jianshu.com/p/e318fadf8553)
+- [契约测试之核心解惑](https://www.jianshu.com/p/ca82cde5b125)
+- [契约测试之Pact By Example](https://www.jianshu.com/p/681047496728)
+- [Start testing your GraphQL Schema, Queries and, Mutations!](https://hackernoon.com/start-testing-your-graphql-schema-queries-and-mutations-b514911b1368)
+- [Implementing a Consumer-Driven Contract for a React App with Pact and Jest](https://reflectoring.io/pact-react-consumer)
+- [Implementing a Consumer-Driven Contract for a GraphQL Consumer with Node and Apollo](https://reflectoring.io/pact-node-graphql-consumer/)
