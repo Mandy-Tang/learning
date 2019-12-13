@@ -52,6 +52,9 @@ The servers that back a service are called its endpoints, and are specified by a
 - 项目为一个群体提供了一个独立的环境去组织和管理内容，并与另外一个群体完全隔离。
 #### Builds
 构建是一个过程，给定一些输入参数，按照构建的配置，得到一个期望的结果。在这里，构建通常是指利用一些入参或者源码生成一个镜像的过程。
+- Source to Image Build
+- pipeline build
+  - Jenkins
 
 ### 架构组件
 - k8s 架构
