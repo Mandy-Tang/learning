@@ -55,9 +55,9 @@ The servers that back a service are called its endpoints, and are specified by a
 - Source to Image Build
 - pipeline build
   - Jenkins
+#### Image Streams
+
 
 ### 架构组件
 - k8s 架构
   -
-
-
