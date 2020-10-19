@@ -18,8 +18,27 @@
 - 提供 Mocks、Spies 和 Stubs：模拟测试场景、隔离测试、插入运行过程，(Sinon, Jasmine, enzyme, Jest, testdouble)
 - 生成并对比快照：通过对比生成的组件和数据结构的快照，确保变更和代码变更预期一致，(Jest, Ava)
 - 生成代码覆盖报告：(Istanbul, Jest, Blanket)
-- 浏览器管理：在功能测试中模拟用户行为，(Nightwatch, Nightmare, Phantom, Puppeteer, TestCafe, Cypress)
+- 浏览器控制器：在功能测试中模拟用户行为，(Nightwatch, Nightmare, Phantom, Puppeteer, TestCafe, Cypress)
 - 界面回归工具：(Applitools, Percy, Wraith, WebdriverCSS)
+
+### 浏览器控制器
+
+有多种控制浏览器的方式来模拟用户的行为：
+
+#### 通过 WebDriver
+WebDriver 是浏览器远程控制接口，通过这些接口可以操作浏览器。它本身是一个垮平台、垮语言的协议，
+
+WebDriver is a remote control interface that enables introspection and control of user agents. It provides a platform- and language-neutral wire protocol as a way for out-of-process programs to remotely instruct the behavior of web browsers.
+
+Provided is a set of interfaces to discover and manipulate DOM elements in web documents and to control the behavior of a user agent. It is primarily intended to allow web authors to write tests that automate a user agent from a separate controlling process, but may also be used in such a way as to allow in-browser scripts to control a — possibly separate — browser.
+
+## 选择合适的工具
+测试结构+断言工具+如何跑测试
+
+
+
+## Cypress
+
 
 ------------------
 **参考**
