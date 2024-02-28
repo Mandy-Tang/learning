@@ -61,4 +61,6 @@ $ npx mrm editorconfig
 $ yarn add eslint --save && yarn eslint --init
 ```
 
+## git test
+test
 
